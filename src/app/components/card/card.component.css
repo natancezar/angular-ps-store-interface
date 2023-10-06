@@ -2,9 +2,9 @@
 	position: relative;
 	border:3px solid #3E4357;
 	border-radius: 10px;
-	width: 350px;
-	height: 500px;
-
+	width: 250px;
+	height: 250px;
+	
 	display: flex;
 	overflow: hidden;
 	margin-top: 10px;

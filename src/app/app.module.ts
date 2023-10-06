@@ -10,6 +10,7 @@ import { CardLabelComponent } from './components/card/card-label/card-label.comp
 import { CardPricingComponent } from './components/card/card-pricing/card-pricing.component';
 import { DropDownMenuComponent } from './components/conatiner-header/drop-down-menu/drop-down-menu.component';
 import { ConatinerHeaderComponent } from './components/conatiner-header/conatiner-header.component';
+import { ConatinerFooterComponent } from './components/conatiner-footer/conatiner-footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ConatinerHeaderComponent } from './components/conatiner-header/conatine
     CardLabelComponent,
     CardPricingComponent,
     DropDownMenuComponent,
-    ConatinerHeaderComponent
+    ConatinerHeaderComponent,
+    ConatinerFooterComponent
   ],
   imports: [
     BrowserModule,

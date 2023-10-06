@@ -1,10 +1,22 @@
-.card__drop-menu{
+.card__drop-menu{ 
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     position: relative;
     z-index: 1000;
-    padding: 1px;
 }
 
-nav > a{
-    padding-right: 20px;
+.card__drop-menu > img{
+    width: 50px;
+    margin-left: 20px;
+    align-content: center;
+}
+
+.button__drop-menu > button{
+    font-size: x-small;
+    color: grey;
+	font-family: 'Segoe UI';
+    margin-right: 15px;
+    background-color: white;
 }
